@@ -3,7 +3,8 @@ name: Flask CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - dev
+      - prod
  
 jobs:
   deploy:
